@@ -1,0 +1,16 @@
+diferencia entre un lenguaje interpretado y un lenguaje compilado ;
+el interprete traduce , en tiempo real cada linea del programa fuente cada vez q se quiere ejecutar el programa.
+solo necesita archivo donde esta contenido el programa para ejecutarlo
+el lenguaje compilado , es un lenguaje que necesita un (compelador)para ser         ejecutado , a diferencia de los lenguaes interpretados , solo se hace una      vez, el programa compilador toma como entrada al codigo al codigo fuente , y  da como salida un ficehreo q puedeejecutado por el ordenador directamente.
+
+DESCRIPCION DEL PROCESO DE COMPILACION;
+1 CODIGO FUENTE es un programa informatico , es conjunto de lineas de textoq    debe segui la computadora para ejecutar un programa.
+2 PREPROSESADOR el programa pasa  por el preprosesador cpp que ejecuta macros    como #include da un archivo en .i.
+3 COMPILADOR el programa pasa por el compilador, g++ que toma el archivo         anterior  y traduce el codigo expandido en c++ a lenguaje ensamblador produce
+ un archivo as. 
+4 ENSAMBLADOR  luego este archivo en lenguaje ensamblador se pasa al asembler as que produce un codigo o., este aun no se puede ejecutar.
+5 LINKER para ejecutarse se necesita llevarse  el codigo objetoal linker ld que enlasa o muestra el programa donde estan las diferentes librerias del sistema    que necesita para su ejecucion
+
+
+
+ 
